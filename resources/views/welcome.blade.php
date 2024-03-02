@@ -9,7 +9,7 @@
     @vite(['resources/js/app.js'])
 </head>
 <body>
-    Hello From Blade!
+    {{ trans_choice('fruits.apples', 99) }}
 
     <main id="app">
        <hello-world />

@@ -1,9 +1,9 @@
 <script setup>
-
+import {transChoice} from "laravel-vue-i18n";
 </script>
 
 <template>
-    Hello From Vue
+    {{ transChoice('fruits.apples', 15) }}
 </template>
 
 <style scoped>
